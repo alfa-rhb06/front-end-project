@@ -1,0 +1,91 @@
+body {
+  background: salmon;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: "open_sansregular";
+  src: url("OpenSans-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pembungkus {
+  box-sizing: border-box;
+}
+/*top cod*/
+.atasankiri {
+  font-size: 40px;
+  margin-left: 45px;
+  margin-top: 70px;
+  letter-spacing: 2px;
+  color: salmon;
+  text-shadow: 0 0 8px black;
+}
+.atasankanan,
+.nav,
+.late,
+li,
+a {
+  font-size: 19px;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+  top: -35px;
+  right: -220px;
+  color: black;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75);
+  transition: 0.4s;
+}
+.late,
+li,
+a:hover {
+  color: blanchedalmond;
+  font-size: 23px;
+  text-shadow: 0px 8px 15px rgba(33, 6, 6, 0.984);
+}
+.late {
+  text-decoration: underline;
+}
+
+/*middle code*/
+.tengah {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 28px;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 260px;
+  left: 115px;
+  line-height: 55px;
+}
+.span {
+  display: inline-block;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.span2 {
+  border-bottom: 2px solid blanchedalmond;
+}
+.span3 {
+  text-shadow: 4px 4px 0 blanchedalmond;
+}
+
+.gambar-samping {
+  width: 450px;
+  height: 275px;
+  background-image: url("gambar/modern-frame-with-golden-splash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50% 15px 50% 15px;
+}
+.gambar-samping {
+  position: absolute;
+  top: 270px;
+  left: 730px;
+  box-shadow: inset 2px 2px 7px grey, 2px 2px 7px grey;
+}
